@@ -43,7 +43,16 @@ def say_hello():
         <form action="/greet">
           What's your name? <input type="text" name="person">
           <input type="submit" value="Submit">
+          <br>
+          <br>
+          Choose a compliment: 
+          <select name="compliment">
+            <option value="smart">Smart</option>
+            <option value="cool">Cool</option>
+            <option value="gorg">Gorg</option>
+          </select>
         </form>
+        
       </body>
     </html>
     """
